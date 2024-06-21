@@ -1,0 +1,29 @@
+FASTAPI:
+To bridge the gap between the taxonomies produced by frontend, and the data generated through our large language model, the backend needed to create an API.
+
+Think of an API as a waiter in a restaurant. It enables communication between the customer and the chef, going back and forth with relevant data.
+
+FastAPI provided the tools that allowed us to implement this and test how we 
+obtain new nodes based on different prompts. We could insert data and observe the AI-generated response pretty efficiently, which sped up the integration of our product massively.
+
+
+DOCKER:
+Earlier in the project's development, we were having issues with dependencies. Basically: what would work on one person's computer would fail on another's.
+
+For some time we used makefiles and requirement files to do this, but when new work would be done and new dependencies would be added, things got messy. As such, we moved over to Docker containers.
+
+Containers basically emulate a computer device for you. That very device can be pulled onto someone's computer, and it's just like if we were all sharing the same pc.
+
+By installing the dependencies onto the container instead, suddenly our problems with dependencies dropped and we were able to be more productive.
+
+
+CI/CD:
+When working on a project with a team of 11 people and a broad range of work being done between frontend, backend and data generation.
+
+trying to merge work together into coherent builds was difficult. It took a lot of communication at times to produce deliverables for each sprint.
+
+Continuous integration/continuous deployment, or CI/CD, was our way of improving this. When changes are made to our repository's main branch, the five stages of our CI/CD pipeline begin:
+
+The project is tested, built, reviewed, merged and deployed automatically, providing indicators for whether each phase succeeded or failed.
+
+

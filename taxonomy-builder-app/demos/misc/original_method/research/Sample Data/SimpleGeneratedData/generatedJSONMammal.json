@@ -1,0 +1,68 @@
+{
+  "taxonomy": {
+    "mammals": {
+      "order": "Mammalia",
+      "class": "Mammalia",
+      "phylum": "Chordata",
+      "kingdom": "Animalia",
+      "subkingdom": "Metazoa",
+      "superphylum": "Deuterostomia",
+      "domain": "Eukaryota"
+    },
+    "orders": [
+      {
+        "name": "Afrosoricida",
+        "family": "Chrysochloridae",
+        "genus": "Chrysochloris",
+        "species": "Chrysochloris asiatica"
+      },
+      {
+        "name": "Artiodactyla",
+        "family": "Bovidae",
+        "genus": "Bos",
+        "species": "Bos taurus"
+      },
+      {
+        "name": "Carnivora",
+        "family": "Canidae",
+        "genus": "Canis",
+        "species": "Canis familiaris"
+      },
+      {
+        "name": "Cetacea",
+        "family": "Delphinidae",
+        "genus": "Delphinus",
+        "species": "Delphinus delphis"
+      },
+      {
+        "name": "Chiroptera",
+        "family": "Vespertilionidae",
+        "genus": "Myotis",
+        "species": "Myotis lucifugus"
+      },
+      {
+        "name": "Dasyuromorphia",
+        "family": "Dasyuridae",
+        "genus": "Dasyurus",
+        "species": "Dasyurus maculatus"
+      },
+      {
+        "name": "Didelphimorphia",
+        "family": "Didelphidae",
+        "genus": "Didelphis",
+        "species": "Didelphis virginiana"
+      },
+      {
+        "name": "Diprotodontia",
+        "family": "Macropodidae",
+        "genus": "Macropus",
+        "species": "Macropus giganteus"
+      },
+      {
+        "name": "Eulipotyphla",
+        "family": "Soricidae",
+        "genus": "Sorex"
+      }
+    ]
+  }
+}

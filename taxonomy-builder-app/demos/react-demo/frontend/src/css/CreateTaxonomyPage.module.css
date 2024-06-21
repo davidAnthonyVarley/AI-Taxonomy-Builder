@@ -1,0 +1,79 @@
+.createTaxonomyPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #120136; /* Dark background color */
+  color: white; /* Light text for better contrast */
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+}
+
+.title {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for home page button */
+.homeButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #593196; /* Purple background color */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+/* Full-width input field at the bottom */
+.inputField {
+  width: calc(100% - 40px); /* Full width minus padding */
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: none;
+  margin-top: auto; /* Push to bottom */
+  font-size: 1rem;
+  margin-bottom: 20px; /* Space below input field */
+}
+
+/* Adjust button styles to match */
+.submitButton {
+  background-color: #593196; /* Purple background color */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 20px; /* Space below the button */
+}
+
+.submitButton:hover {
+  background-color: #502D8B; /* Slightly darker purple on hover */
+}
+
+/* React Flow container adjusted for theme */
+.reactFlowWrapper {
+  width: 100%;
+  height: calc(100vh - 40px); /* Full height minus padding */
+  background-color: #1E0E3F; /* Darker background for focus area */
+}
+
+/* Additional global styles for consistent theming */
+body {
+  margin: 0;
+  background-color: #120136; /* Body background to match the theme */
+  color: white; /* Text color for body */
+}
+
+
+

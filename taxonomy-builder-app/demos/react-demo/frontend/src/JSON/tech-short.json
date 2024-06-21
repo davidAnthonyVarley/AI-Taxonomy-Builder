@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": "Technology",
+            "type": "textUpdater",
+            "data": { "label": "Technology"},
+            "position": { "x": 0, "y": 0},
+            "sourcePosition": "right"
+        },
+        {
+            "id": "Hardware",
+            "type": "textUpdater",
+            "data": { "label": "Hardware"},
+            "position": { "x": 250, "y": 0},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Software",
+            "type": "textUpdater",
+            "data": { "label": "Software"},
+            "position": { "x": 250, "y": 200},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Internet of Things (IoT)",
+            "type": "textUpdater",
+            "data": { "label": "Internet of Things (IoT)"},
+            "position": { "x": 170, "y": 400},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Computers",
+            "type": "textUpdater",
+            "data": { "label": "Computers"},
+            "position": { "x": 420, "y": -50},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Smartphones",
+            "type": "textUpdater",
+            "data": { "label": "Smartphones"},
+            "position": { "x": 500, "y": 0},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Servers",
+            "type": "textUpdater",
+            "data": { "label": "Servers"},
+            "position": { "x": 580, "y": 50},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Operating System",
+            "type": "textUpdater",
+            "data": { "label": "Operating Systems"},
+            "position": { "x": 420, "y": 150},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Applications",
+            "type": "textUpdater",
+            "data": { "label": "Applications"},
+            "position": { "x": 500, "y": 200},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Development Tools",
+            "type": "textUpdater",
+            "data": { "label": "Development Tools"},
+            "position": { "x": 580, "y": 250},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Smart Home Devices",
+            "type": "textUpdater",
+            "data": { "label": "Smart Home Devices"},
+            "position": { "x": 420, "y": 350},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Wearables",
+            "type": "textUpdater",
+            "data": { "label": "Wearables"},
+            "position": { "x": 500, "y": 400},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        },
+        {
+            "id": "Connected Appliances",
+            "type": "textUpdater",
+            "data": { "label": "Connected Appliances"},
+            "position": { "x": 580, "y": 450},
+            "sourcePosition": "right",
+            "targetPosition": "left"
+        }
+    ],
+    "edges": [
+        {
+            "id": "E0-1",
+            "source": "Technology",
+            "target": "Hardware",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E0-2",
+            "source": "Technology",
+            "target": "Software",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E0-3",
+            "source": "Technology",
+            "target": "Internet of Things (IoT)",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E1-1",
+            "source": "Hardware",
+            "target": "Computers",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E1-2",
+            "source": "Hardware",
+            "target": "Smartphones",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E1-3",
+            "source": "Hardware",
+            "target": "Servers",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E2-1",
+            "source": "Software",
+            "target": "Operating System",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E2-2",
+            "source": "Software",
+            "target": "Applications",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E2-3",
+            "source": "Software",
+            "target": "Development Tools",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E3-1",
+            "source": "Internet of Things (IoT)",
+            "target": "Smart Home Devices",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E3-2",
+            "source": "Internet of Things (IoT)",
+            "target": "Wearables",
+            "type": "smoothstep",
+            "animated": true
+        },
+        {
+            "id": "E3-3",
+            "source": "Internet of Things (IoT)",
+            "target": "Connected Appliances",
+            "type": "smoothstep",
+            "animated": true
+        }
+    ]
+}

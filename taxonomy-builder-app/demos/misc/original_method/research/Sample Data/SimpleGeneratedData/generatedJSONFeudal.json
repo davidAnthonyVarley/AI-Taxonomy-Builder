@@ -1,0 +1,80 @@
+{
+  "feudal_system_taxonomy": {
+    "kingdoms": [
+      {
+        "name": "Kingdom of England",
+        "roles": [
+          {
+            "title": "King",
+            "responsibilities": [
+              "Ruling over the entire kingdom",
+              "Enacting laws and policies",
+              "Leading the military"
+            ]
+          },
+          {
+            "title": "Queen Consort",
+            "description": "Wife of the King, holds no official power but often acts as advisor and regent"
+          },
+          {
+            "title": "Prince",
+            "description": "Heir to the throne, prepares to assume kingship"
+          },
+          {
+            "title": "Duke",
+            "description": "Ruler of a duchy, appointed by the King"
+          },
+          {
+            "title": "Marquess",
+            "description": "Ruler of a marquessate, appointed by the King"
+          },
+          {
+            "title": "Earl",
+            "description": "Ruler of an earldom, appointed by the King"
+          },
+          {
+            "title": "Viscount",
+            "description": "Ruler of a viscounty, appointed by the King"
+          },
+          {
+            "title": "Baron",
+            "description": "Ruler of a barony, appointed by the King"
+          },
+          {
+            "title": "Knight",
+            "description": "Noble warrior, sworn to protect the kingdom and serve the King"
+          }
+        ]
+      },
+      {
+        "name": "Kingdom of France",
+        "roles": [
+          {
+            "title": "King",
+            "responsibilities": [
+              "Ruling over the entire kingdom",
+              "Enacting laws and policies",
+              "Leading the military"
+            ]
+          },
+          {
+            "title": "Queen Consort",
+            "description": "Wife of the King, holds no official power but often acts as advisor and regent"
+          },
+          {
+            "title": "Dauphin",
+            "description": "Heir to the throne, prepares to assume kingship"
+          },
+          {
+            "title": "Duke",
+            "description": "Ruler of a duchy, appointed by the King"
+          },
+          {
+            "title": "Marquis",
+            "description": "Ruler of a marquis"
+          }
+        ]
+      }
+    ]
+  }
+}

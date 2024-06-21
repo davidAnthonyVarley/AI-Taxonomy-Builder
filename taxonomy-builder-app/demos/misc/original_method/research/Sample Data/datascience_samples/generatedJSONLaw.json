@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Constitutional Law",
+      "CategoryDescription": "a description of Constitutional Law",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "First Amendment",
+          "CategoryDescription": "a description of First Amendment",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Second Amendment",
+          "CategoryDescription": "a description of Second Amendment",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Fourth Amendment",
+          "CategoryDescription": "a description of Fourth Amendment",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        }
+      ]
+    },
+    {
+      "CategoryID": 2,
+      "CategoryName": "Criminal Law",
+      "CategoryDescription": "a description of Criminal Law",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 2,
+          "SubCategoryName": "Homicide",
+          "CategoryDescription": "a description of Homicide",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 2,
+          "SubCategoryName": "Assault",
+          "CategoryDescription": "a description of Assault",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 2,
+          "SubCategoryName": "Theft",
+          "CategoryDescription": "a description of Theft",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        }
+      ]
+    },
+    {
+      "CategoryID": 3,
+      "CategoryName": "Contract Law",
+      "CategoryDescription": "a description of Contract Law",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 3,
+          "SubCategoryName": "Formation of Contracts",
+          "CategoryDescription": "a description of Formation of Contracts",
+          "HierarchyLevel": 2,
+          "ParentID": 3
+        }
+      ]
+    }
+  ]
+}

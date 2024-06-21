@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "Universe",
+      "type": "textUpdater",
+      "data": { "label": "Universe" },
+      "position": { "x": 0, "y": 0 },
+      "sourcePosition": "right"
+    },
+    {
+      "id": "GalaxyCluster",
+      "type": "textUpdater",
+      "data": { "label": "Galaxy Cluster" },
+      "position": { "x": 250, "y": 0 },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "Galaxy",
+      "type": "textUpdater",
+      "data": { "label": "Galaxy" },
+      "position": { "x": 250, "y": 200 },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SolarSystem",
+      "type": "textUpdater",
+      "data": { "label": "Solar System" },
+      "position": { "x": 500, "y": 0 },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "Star",
+      "type": "textUpdater",
+      "data": { "label": "Star" },
+      "position": { "x": 500, "y": 150 },
+      "sourcePosition": "top",
+      "targetPosition": "bottom"
+    },
+    {
+      "id": "Planet",
+      "type": "textUpdater",
+      "data": { "label": "Planet" },
+      "position": { "x": 500, "y": 260 },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "Moon",
+      "type": "textUpdater",
+      "data": { "label": "Moon" },
+      "position": { "x": 750, "y": 150 },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "source": "Universe",
+      "target": "GalaxyCluster",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge2",
+      "source": "Universe",
+      "target": "Galaxy",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge3",
+      "source": "GalaxyCluster",
+      "target": "SolarSystem",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge4",
+      "source": "Galaxy",
+      "target": "Star",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge5",
+      "source": "Galaxy",
+      "target": "Planet",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge6",
+      "source": "Star",
+      "target": "Moon",
+      "type": "smoothstep",
+      "animated": true
+    },
+    {
+      "id": "edge7",
+      "source": "Planet",
+      "target": "NewNode",
+      "type": "smoothstep",
+      "animated": true
+    }
+  ]
+}

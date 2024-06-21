@@ -1,0 +1,42 @@
+name: Build
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+
+    # Build react app
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Build React app
+        run: |
+          cd taxonomy-builder-app/production-app/frontend
+          npm install
+          npm build
+
+    # Build python code
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.12"
+      - name: Install Python dependencies
+        run: |
+          cd taxonomy-builder-app/production-app/backend
+          pip install -r requirements.txt
+      - name: Build python code
+        # Find all python files (skip research folder) and compile
+        run: find . -name '*.py' -not -path './taxonomy-builder-app/research/*' -exec python -m py_compile {} \; 
+
+    # Build Docker container
+      - name: Build Docker container
+        env:
+          API_KEY_GPT3_5_TURBO: ${{ secrets.API_KEY_GPT3_5_TURBO }}
+          API_KEY_GPT4: ${{ secrets.API_KEY_GPT4 }}
+        run: docker compose build

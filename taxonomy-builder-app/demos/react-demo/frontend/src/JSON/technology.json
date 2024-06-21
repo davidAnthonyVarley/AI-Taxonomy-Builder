@@ -1,0 +1,526 @@
+{
+  "nodes": [
+    {
+      "id": "Hardware",
+      "type": "textUpdater",
+      "data": {
+        "value": "Hardware"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Software",
+      "type": "textUpdater",
+      "data": {
+        "value": "Software"
+      },
+      "position": {
+        "x": 0,
+        "y": 100
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Internet of Things (IoT)",
+      "type": "textUpdater",
+      "data": {
+        "value": "Internet of Things (IoT)"
+      },
+      "position": {
+        "x": 0,
+        "y": 200
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Robotics",
+      "type": "textUpdater",
+      "data": {
+        "value": "Robotics"
+      },
+      "position": {
+        "x": 0,
+        "y": 300
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Biotechnology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Biotechnology"
+      },
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Communication Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Communication Technology"
+      },
+      "position": {
+        "x": 300,
+        "y": 0
+      },
+      "width": 220,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Renewable Energy Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Renewable Energy Technology"
+      },
+      "position": {
+        "x": 300,
+        "y": 100
+      },
+      "width": 220,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Transportation Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Transportation Technology"
+      },
+      "position": {
+        "x": 300,
+        "y": 200
+      },
+      "width": 220,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Space Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Space Technology"
+      },
+      "position": {
+        "x": 300,
+        "y": 300
+      },
+      "width": 220,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Information Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Information Technology"
+      },
+      "position": {
+        "x": 600,
+        "y": 0
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Entertainment Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Entertainment Technology"
+      },
+      "position": {
+        "x": 600,
+        "y": 100
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Medical Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Medical Technology"
+      },
+      "position": {
+        "x": 600,
+        "y": 200
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Educational Technology",
+      "type": "textUpdater",
+      "data": {
+        "value": "Educational Technology"
+      },
+      "position": {
+        "x": 600,
+        "y": 300
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Financial Technology (Fintech)",
+      "type": "textUpdater",
+      "data": {
+        "value": "Financial Technology (Fintech)"
+      },
+      "position": {
+        "x": 600,
+        "y": 400
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "0",
+      "source": "Hardware",
+      "target": "Computers"
+    },
+    {
+      "id": "1",
+      "source": "Hardware",
+      "target": "Smartphones"
+    },
+    {
+      "id": "2",
+      "source": "Hardware",
+      "target": "Tablets"
+    },
+    {
+      "id": "3",
+      "source": "Hardware",
+      "target": "Wearable Devices"
+    },
+    {
+      "id": "4",
+      "source": "Hardware",
+      "target": "Servers"
+    },
+    {
+      "id": "5",
+      "source": "Hardware",
+      "target": "Networking Equipment"
+    },
+    {
+      "id": "6",
+      "source": "Hardware",
+      "target": "Storage Devices"
+    },
+    {
+      "id": "7",
+      "source": "Hardware",
+      "target": "Peripherals"
+    },
+    {
+      "id": "8",
+      "source": "Software",
+      "target": "Operating Systems"
+    },
+    {
+      "id": "9",
+      "source": "Software",
+      "target": "Applications"
+    },
+    {
+      "id": "10",
+      "source": "Software",
+      "target": "Programming Languages"
+    },
+    {
+      "id": "11",
+      "source": "Software",
+      "target": "Utilities"
+    },
+    {
+      "id": "12",
+      "source": "Software",
+      "target": "Development Tools"
+    },
+    {
+      "id": "13",
+      "source": "Software",
+      "target": "Security Software"
+    },
+    {
+      "id": "14",
+      "source": "Internet of Things (IoT)",
+      "target": "Smart Home Devices"
+    },
+    {
+      "id": "15",
+      "source": "Internet of Things (IoT)",
+      "target": "Connected Appliances"
+    },
+    {
+      "id": "16",
+      "source": "Internet of Things (IoT)",
+      "target": "Industrial IoT Devices"
+    },
+    {
+      "id": "17",
+      "source": "Internet of Things (IoT)",
+      "target": "Wearables"
+    },
+    {
+      "id": "18",
+      "source": "Robotics",
+      "target": "Industrial Robots"
+    },
+    {
+      "id": "19",
+      "source": "Robotics",
+      "target": "Service Robots"
+    },
+    {
+      "id": "20",
+      "source": "Robotics",
+      "target": "Autonomous Vehicles"
+    },
+    {
+      "id": "21",
+      "source": "Robotics",
+      "target": "Drones"
+    },
+    {
+      "id": "22",
+      "source": "Biotechnology",
+      "target": "Genetic Engineering"
+    },
+    {
+      "id": "23",
+      "source": "Biotechnology",
+      "target": "Pharmaceuticals"
+    },
+    {
+      "id": "24",
+      "source": "Biotechnology",
+      "target": "Medical Devices"
+    },
+    {
+      "id": "25",
+      "source": "Biotechnology",
+      "target": "Bioinformatics"
+    },
+    {
+      "id": "26",
+      "source": "Communication Technology",
+      "target": "Telecommunication Systems"
+    },
+    {
+      "id": "27",
+      "source": "Communication Technology",
+      "target": "Wireless Communication Devices"
+    },
+    {
+      "id": "28",
+      "source": "Communication Technology",
+      "target": "Satellite Communication"
+    },
+    {
+      "id": "29",
+      "source": "Communication Technology",
+      "target": "VoIP Systems"
+    },
+    {
+      "id": "30",
+      "source": "Renewable Energy Technology",
+      "target": "Solar Power"
+    },
+    {
+      "id": "31",
+      "source": "Renewable Energy Technology",
+      "target": "Wind Power"
+    },
+    {
+      "id": "32",
+      "source": "Renewable Energy Technology",
+      "target": "Hydropower"
+    },
+    {
+      "id": "33",
+      "source": "Renewable Energy Technology",
+      "target": "Geothermal Energy"
+    },
+    {
+      "id": "34",
+      "source": "Transportation Technology",
+      "target": "Electric Vehicles"
+    },
+    {
+      "id": "35",
+      "source": "Transportation Technology",
+      "target": "Autonomous Vehicles"
+    },
+    {
+      "id": "36",
+      "source": "Transportation Technology",
+      "target": "High-Speed Rail"
+    },
+    {
+      "id": "37",
+      "source": "Transportation Technology",
+      "target": "Hyperloop"
+    },
+    {
+      "id": "38",
+      "source": "Space Technology",
+      "target": "Satellites"
+    },
+    {
+      "id": "39",
+      "source": "Space Technology",
+      "target": "Space Probes"
+    },
+    {
+      "id": "40",
+      "source": "Space Technology",
+      "target": "Spacecraft"
+    },
+    {
+      "id": "41",
+      "source": "Space Technology",
+      "target": "Space Exploration Tools"
+    },
+    {
+      "id": "42",
+      "source": "Information Technology",
+      "target": "Data Management"
+    },
+    {
+      "id": "43",
+      "source": "Information Technology",
+      "target": "Networking"
+    },
+    {
+      "id": "44",
+      "source": "Information Technology",
+      "target": "Cloud Computing"
+    },
+    {
+      "id": "45",
+      "source": "Information Technology",
+      "target": "Cybersecurity"
+    },
+    {
+      "id": "46",
+      "source": "Entertainment Technology",
+      "target": "Gaming Consoles"
+    },
+    {
+      "id": "47",
+      "source": "Entertainment Technology",
+      "target": "Streaming Devices"
+    },
+    {
+      "id": "48",
+      "source": "Entertainment Technology",
+      "target": "Virtual Reality"
+    },
+    {
+      "id": "49",
+      "source": "Entertainment Technology",
+      "target": "Augmented Reality"
+    },
+    {
+      "id": "50",
+      "source": "Medical Technology",
+      "target": "Diagnostic Equipment"
+    },
+    {
+      "id": "51",
+      "source": "Medical Technology",
+      "target": "Therapeutic Devices"
+    },
+    {
+      "id": "52",
+      "source": "Medical Technology",
+      "target": "Healthcare Information Systems"
+    },
+    {
+      "id": "53",
+      "source": "Medical Technology",
+      "target": "Telemedicine"
+    },
+    {
+      "id": "54",
+      "source": "Educational Technology",
+      "target": "E-learning Platforms"
+    },
+    {
+      "id": "55",
+      "source": "Educational Technology",
+      "target": "Educational Software"
+    },
+    {
+      "id": "56",
+      "source": "Educational Technology",
+      "target": "Interactive Whiteboards"
+    },
+    {
+      "id": "57",
+      "source": "Educational Technology",
+      "target": "Learning Management Systems"
+    },
+    {
+      "id": "58",
+      "source": "Financial Technology (Fintech)",
+      "target": "Digital Payments"
+    },
+    {
+      "id": "59",
+      "source": "Financial Technology (Fintech)",
+      "target": "Blockchain Technology"
+    },
+    {
+      "id": "60",
+      "source": "Financial Technology (Fintech)",
+      "target": "Online Banking"
+    },
+    {
+      "id": "61",
+      "source": "Financial Technology (Fintech)",
+      "target": "Financial Analytics"
+    }
+  ]
+}

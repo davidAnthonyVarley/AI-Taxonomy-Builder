@@ -1,0 +1,13 @@
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #190061;
+  color: white;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  width: 0;
+}

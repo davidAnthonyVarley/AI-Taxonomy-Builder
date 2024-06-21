@@ -1,0 +1,60 @@
+{
+  "CategoryID": 1,
+  "CategoryName": "Business",
+  "CategoryDescription": "the highest level",
+  "HierarchyLevel": 1,
+  "ParentID": null,
+  "SubCategories": {
+    "SubCategoryID": {
+      "CategoryID": 2,
+      "CategoryName": "Industry",
+      "CategoryDescription": "a description of Industry",
+      "HierarchyLevel": 2,
+      "ParentID": 1,
+      "SubCategories": {
+        "SubCategoryID": {
+          "CategoryID": 3,
+          "CategoryName": "Division",
+          "CategoryDescription": "a description of Division",
+          "HierarchyLevel": 3,
+          "ParentID": 2,
+          "SubCategories": {
+            "SubCategoryID": {
+              "CategoryID": 4,
+              "CategoryName": "Department",
+              "CategoryDescription": "a description of Department",
+              "HierarchyLevel": 4,
+              "ParentID": 3,
+              "SubCategories": {
+                "SubCategoryID": {
+                  "CategoryID": 5,
+                  "CategoryName": "Service",
+                  "CategoryDescription": "a description of Service",
+                  "HierarchyLevel": 5,
+                  "ParentID": 4,
+                  "SubCategories": {
+                    "SubCategoryID": {
+                      "CategoryID": 6,
+                      "CategoryName": "Sub-service",
+                      "CategoryDescription": "a description of Sub-service",
+                      "HierarchyLevel": 6,
+                      "ParentID": 5,
+                      "SubCategories": {
+                        "SubCategoryID": {
+                          "CategoryName": "Task",
+                          "CategoryDescription": "a description of Task",
+                          "HierarchyLevel": 7,
+                          "ParentID": 6
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

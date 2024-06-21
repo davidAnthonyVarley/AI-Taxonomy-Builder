@@ -1,0 +1,3 @@
+here are just some of the prompts i used when organising data along db schema:
+
+make every object in this following .json text at least have the attributes CategoryName, CategoryID, Description, HierarchyLevel, ParentID

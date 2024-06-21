@@ -1,0 +1,21 @@
+header {
+  background-color: #240090;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-toggle-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  frontend:
+    build: ./taxonomy-builder-app/production-app/frontend
+    ports:
+      - "3000:3000"
+  backend:
+    build: ./taxonomy-builder-app/production-app/backend
+    ports:
+      - "8000:8000"

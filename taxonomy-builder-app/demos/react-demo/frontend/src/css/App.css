@@ -1,0 +1,11 @@
+.sidebar-and-main-content-area {
+  display: flex;
+  background-color: #0c0032;
+}
+
+.main-content {
+  flex: 1;
+  min-height: 100vh;
+  background-color: #0c0032;
+  color: white;
+}

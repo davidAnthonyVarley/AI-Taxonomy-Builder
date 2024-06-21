@@ -1,0 +1,61 @@
+{
+  "law_taxonomy": [
+    {
+      "category": "Constitutional Law",
+      "subcategories": [
+        {
+          "subcategory": "First Amendment",
+          "subsubcategory": [
+            "Freedom of Speech",
+            "Freedom of Religion",
+            "Freedom of the Press"
+          ]
+        },
+        {
+          "subcategory": "Second Amendment",
+          "subsubcategory": ["Right to Bear Arms"]
+        },
+        {
+          "subcategory": "Fourth Amendment",
+          "subsubcategory": [
+            "Protection against Unreasonable Searches and Seizures"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Criminal Law",
+      "subcategories": [
+        {
+          "subcategory": "Homicide",
+          "subsubcategory": ["Murder", "Manslaughter"]
+        },
+        {
+          "subcategory": "Assault",
+          "subsubcategory": ["Simple Assault", "Aggravated Assault"]
+        },
+        {
+          "subcategory": "Theft",
+          "subsubcategory": ["Robbery", "Burglary", "Larceny"]
+        }
+      ]
+    },
+    {
+      "category": "Contract Law",
+      "subcategories": [
+        {
+          "subcategory": "Formation of Contracts",
+          "subsubcategory": ["Offer and Acceptance", "Consideration"]
+        },
+        {
+          "subcategory": "Breach of Contract",
+          "subsubcategory": ["Material Breach", "Anticipatory Breach"]
+        },
+        {
+          "subcategory": "Remedies",
+          "subsubcategory": ["Damages", "Specific Performance"]
+        }
+      ]
+    }
+  ]
+}

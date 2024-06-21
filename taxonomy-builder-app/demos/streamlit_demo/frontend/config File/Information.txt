@@ -1,0 +1,20 @@
+Needed to change theme of app
+Also need to have streamlit installed. 
+I used https://docs.streamlit.io/get-started/installation/command-line
+
+Follow Xiyuan's setup instructions to get the app running
+
+Go to C:\Users\userName\.streamlit
+
+1. If config.toml is present
+Copy and paste contents of .toml file provided
+
+2. If config.toml isn't present
+Create a config.toml file, then paste contents of .toml file provided
+NOTE: I created a text document, changed the extention on Windows
+	Instead of having config.txt, I wrote config.toml
+	May issue a warning that changing the extention may lead to the file being unusable, ignore this and click yes
+
+	!! Check that the file extention is a .toml file !!
+
+Temporary until we can find a way to change the colour of individual elements

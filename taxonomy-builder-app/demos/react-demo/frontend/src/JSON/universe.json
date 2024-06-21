@@ -1,0 +1,737 @@
+{
+  "nodes": [
+    {
+      "id": "cosmic_structures",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cosmic Structures"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "celestial_bodies",
+      "type": "textUpdater",
+      "data": {
+        "value": "Celestial Bodies"
+      },
+      "position": {
+        "x": 0,
+        "y": 100
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "cosmic_phenomena",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cosmic Phenomena"
+      },
+      "position": {
+        "x": 0,
+        "y": 200
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "classification_by_structure",
+      "type": "textUpdater",
+      "data": {
+        "value": "Classification by Structure"
+      },
+      "position": {
+        "x": 200,
+        "y": 0
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "classification_by_properties",
+      "type": "textUpdater",
+      "data": {
+        "value": "Classification by Properties"
+      },
+      "position": {
+        "x": 200,
+        "y": 100
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "classification_by_scale",
+      "type": "textUpdater",
+      "data": {
+        "value": "Classification by Scale"
+      },
+      "position": {
+        "x": 200,
+        "y": 200
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "classification_by_time",
+      "type": "textUpdater",
+      "data": {
+        "value": "Classification by Time"
+      },
+      "position": {
+        "x": 200,
+        "y": 300
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "galaxies",
+      "type": "textUpdater",
+      "data": {
+        "value": "Galaxies"
+      },
+      "position": {
+        "x": 400,
+        "y": 0
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "galactic_clusters",
+      "type": "textUpdater",
+      "data": {
+        "value": "Galactic Clusters"
+      },
+      "position": {
+        "x": 400,
+        "y": 50
+      },
+      "width": 140,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "galactic_superclusters",
+      "type": "textUpdater",
+      "data": {
+        "value": "Galactic Superclusters"
+      },
+      "position": {
+        "x": 400,
+        "y": 100
+      },
+      "width": 200,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "stars",
+      "type": "textUpdater",
+      "data": {
+        "value": "Stars"
+      },
+      "position": {
+        "x": 400,
+        "y": 100
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "protostars",
+      "type": "textUpdater",
+      "data": {
+        "value": "Protostars"
+      },
+      "position": {
+        "x": 600,
+        "y": 150
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "main_sequence_stars",
+      "type": "textUpdater",
+      "data": {
+        "value": "Main Sequence Stars"
+      },
+      "position": {
+        "x": 600,
+        "y": 200
+      },
+      "width": 180,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "red_giants",
+      "type": "textUpdater",
+      "data": {
+        "value": "Red Giants"
+      },
+      "position": {
+        "x": 600,
+        "y": 250
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "white_dwarfs",
+      "type": "textUpdater",
+      "data": {
+        "value": "White Dwarfs"
+      },
+      "position": {
+        "x": 600,
+        "y": 300
+      },
+      "width": 140,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "neutron_stars",
+      "type": "textUpdater",
+      "data": {
+        "value": "Neutron Stars"
+      },
+      "position": {
+        "x": 600,
+        "y": 350
+      },
+      "width": 140,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "black_holes_stars",
+      "type": "textUpdater",
+      "data": {
+        "value": "Black Holes"
+      },
+      "position": {
+        "x": 600,
+        "y": 400
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "planets",
+      "type": "textUpdater",
+      "data": {
+        "value": "Planets"
+      },
+      "position": {
+        "x": 400,
+        "y": 200
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "terrestrial_planets",
+      "type": "textUpdater",
+      "data": {
+        "value": "Terrestrial Planets"
+      },
+      "position": {
+        "x": 600,
+        "y": 250
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "gas_giants",
+      "type": "textUpdater",
+      "data": {
+        "value": "Gas Giants"
+      },
+      "position": {
+        "x": 600,
+        "y": 300
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "dwarf_planets",
+      "type": "textUpdater",
+      "data": {
+        "value": "Dwarf Planets"
+      },
+      "position": {
+        "x": 600,
+        "y": 350
+      },
+      "width": 140,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "moons",
+      "type": "textUpdater",
+      "data": {
+        "value": "Moons"
+      },
+      "position": {
+        "x": 400,
+        "y": 300
+      },
+      "width": 80,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "asteroids",
+      "type": "textUpdater",
+      "data": {
+        "value": "Asteroids"
+      },
+      "position": {
+        "x": 400,
+        "y": 350
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "comets",
+      "type": "textUpdater",
+      "data": {
+        "value": "Comets"
+      },
+      "position": {
+        "x": 400,
+        "y": 400
+      },
+      "width": 80,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "meteoroids",
+      "type": "textUpdater",
+      "data": {
+        "value": "Meteoroids"
+      },
+      "position": {
+        "x": 400,
+        "y": 450
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "nebulae",
+      "type": "textUpdater",
+      "data": {
+        "value": "Nebulae"
+      },
+      "position": {
+        "x": 400,
+        "y": 200
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "supernovae",
+      "type": "textUpdater",
+      "data": {
+        "value": "Supernovae"
+      },
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "black_hole_events",
+      "type": "textUpdater",
+      "data": {
+        "value": "Black Hole Events"
+      },
+      "position": {
+        "x": 400,
+        "y": 300
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "gamma_ray_bursts",
+      "type": "textUpdater",
+      "data": {
+        "value": "Gamma-Ray Bursts"
+      },
+      "position": {
+        "x": 400,
+        "y": 350
+      },
+      "width": 160,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "cosmic_background_radiation",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cosmic Background Radiation"
+      },
+      "position": {
+        "x": 400,
+        "y": 400
+      },
+      "width": 240,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "local_group",
+      "type": "textUpdater",
+      "data": {
+        "value": "Local Group"
+      },
+      "position": {
+        "x": 600,
+        "y": 0
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "galactic",
+      "type": "textUpdater",
+      "data": {
+        "value": "Galactic"
+      },
+      "position": {
+        "x": 600,
+        "y": 50
+      },
+      "width": 80,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "intergalactic",
+      "type": "textUpdater",
+      "data": {
+        "value": "Intergalactic"
+      },
+      "position": {
+        "x": 600,
+        "y": 100
+      },
+      "width": 140,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "cosmic",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cosmic"
+      },
+      "position": {
+        "x": 600,
+        "y": 150
+      },
+      "width": 80,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "formation",
+      "type": "textUpdater",
+      "data": {
+        "value": "Formation"
+      },
+      "position": {
+        "x": 600,
+        "y": 0
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "evolution",
+      "type": "textUpdater",
+      "data": {
+        "value": "Evolution"
+      },
+      "position": {
+        "x": 600,
+        "y": 50
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "future",
+      "type": "textUpdater",
+      "data": {
+        "value": "Future"
+      },
+      "position": {
+        "x": 600,
+        "y": 100
+      },
+      "width": 80,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "source": "cosmic_structures",
+      "target": "galaxies"
+    },
+    {
+      "id": "edge2",
+      "source": "cosmic_structures",
+      "target": "galactic_clusters"
+    },
+    {
+      "id": "edge3",
+      "source": "cosmic_structures",
+      "target": "galactic_superclusters"
+    },
+    {
+      "id": "edge4",
+      "source": "celestial_bodies",
+      "target": "stars"
+    },
+    {
+      "id": "edge5",
+      "source": "celestial_bodies",
+      "target": "planets"
+    },
+    {
+      "id": "edge6",
+      "source": "celestial_bodies",
+      "target": "moons"
+    },
+    {
+      "id": "edge7",
+      "source": "celestial_bodies",
+      "target": "asteroids"
+    },
+    {
+      "id": "edge8",
+      "source": "celestial_bodies",
+      "target": "comets"
+    },
+    {
+      "id": "edge9",
+      "source": "celestial_bodies",
+      "target": "meteoroids"
+    },
+    {
+      "id": "edge10",
+      "source": "cosmic_phenomena",
+      "target": "nebulae"
+    },
+    {
+      "id": "edge11",
+      "source": "cosmic_phenomena",
+      "target": "supernovae"
+    },
+    {
+      "id": "edge12",
+      "source": "cosmic_phenomena",
+      "target": "black_hole_events"
+    },
+    {
+      "id": "edge13",
+      "source": "cosmic_phenomena",
+      "target": "gamma_ray_bursts"
+    },
+    {
+      "id": "edge14",
+      "source": "cosmic_phenomena",
+      "target": "cosmic_background_radiation"
+    },
+    {
+      "id": "edge15",
+      "source": "classification_by_structure",
+      "target": "galaxies"
+    },
+    {
+      "id": "edge16",
+      "source": "classification_by_structure",
+      "target": "galactic_clusters"
+    },
+    {
+      "id": "edge17",
+      "source": "classification_by_structure",
+      "target": "galactic_superclusters"
+    },
+    {
+      "id": "edge18",
+      "source": "classification_by_structure",
+      "target": "stars"
+    },
+    {
+      "id": "edge19",
+      "source": "classification_by_structure",
+      "target": "planets"
+    },
+    {
+      "id": "edge20",
+      "source": "classification_by_structure",
+      "target": "moons"
+    },
+    {
+      "id": "edge21",
+      "source": "classification_by_structure",
+      "target": "asteroids"
+    },
+    {
+      "id": "edge22",
+      "source": "classification_by_structure",
+      "target": "comets"
+    },
+    {
+      "id": "edge23",
+      "source": "classification_by_structure",
+      "target": "meteoroids"
+    },
+    {
+      "id": "edge24",
+      "source": "classification_by_properties",
+      "target": "size"
+    },
+    {
+      "id": "edge25",
+      "source": "classification_by_properties",
+      "target": "composition"
+    },
+    {
+      "id": "edge26",
+      "source": "classification_by_properties",
+      "target": "motion"
+    },
+    {
+      "id": "edge27",
+      "source": "classification_by_properties",
+      "target": "energy"
+    },
+    {
+      "id": "edge28",
+      "source": "classification_by_properties",
+      "target": "temperature"
+    },
+    {
+      "id": "edge29",
+      "source": "classification_by_scale",
+      "target": "local_group"
+    },
+    {
+      "id": "edge30",
+      "source": "classification_by_scale",
+      "target": "galactic"
+    },
+    {
+      "id": "edge31",
+      "source": "classification_by_scale",
+      "target": "intergalactic"
+    },
+    {
+      "id": "edge32",
+      "source": "classification_by_scale",
+      "target": "cosmic"
+    },
+    {
+      "id": "edge33",
+      "source": "classification_by_time",
+      "target": "formation"
+    },
+    {
+      "id": "edge34",
+      "source": "classification_by_time",
+      "target": "evolution"
+    },
+    {
+      "id": "edge35",
+      "source": "classification_by_time",
+      "target": "future"
+    }
+  ]
+}
+

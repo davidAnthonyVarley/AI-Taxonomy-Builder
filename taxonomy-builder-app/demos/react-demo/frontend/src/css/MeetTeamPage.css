@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+h2 {
+  color: #fff;
+  font-family: "Figtree", sans-serif;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0c0032;
+}
+
+.container-1 {
+  position: relative;
+  width: 710px;
+  margin-top: 20px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  align-self: center;
+  background-color: #282828;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  opacity: 0.5;
+}
+
+.container-1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+/* CSS for individual pictures */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  width: 800px;
+  height: 500px;
+  transition: all 400ms;
+}
+
+.container:hover .box {
+  filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+  position: relative;
+  background: var(--img) center center;
+  background-size: cover;
+  transition: all 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+
+.container:has(.box-1:hover) {
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-2:hover) {
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-3:hover) {
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-4:hover) {
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-5:hover) {
+  grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-6:hover) {
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-7:hover) {
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-8:hover) {
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-9:hover) {
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-10:hover) {
+  grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-11:hover) {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+  transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+  transform: translateY(16px);
+}
+
+.box::after {
+  content: attr(data-text); /* Use the 'datatext' attribute value as content */
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 10px 14px; /* Adjust padding as needed */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transform: translateY(100%); /* Initially hide the text below the image */
+  opacity: 0; /* Initially hide the text */
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease; /* Smooth transition */
+}
+
+.box:hover::after {
+  transform: translateY(0); /* Move the text above the image when hovering */
+  opacity: 1; /* Show the text */
+}

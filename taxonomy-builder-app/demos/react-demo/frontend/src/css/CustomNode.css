@@ -1,0 +1,78 @@
+.custom-node {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 0.2s ease-in-out;
+  background: #6600ff; /* Neon purple background */
+  font-weight: 400;
+  color: white; /* Ensure text color is white for visibility */
+}
+
+/* Ensure hover effect does not affect text alignment */
+.custom-node:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.node-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px; /* Adjust if necessary */
+  width: 100%; /* Adjust based on your design */
+  height: 100%;
+}
+
+.custom-node input,
+.custom-node span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px; /* Consistent font size */
+  color: white;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-controls {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  flex-direction: column;
+}
+
+.custom-node:hover .node-controls {
+  display: flex;
+}
+
+.add-button,
+.delete-button {
+  margin: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-button {
+  color: #4CAF50;
+}
+
+.delete-button {
+  color: #F44336;
+}

@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Mammalia",
+      "CategoryDescription": "a description of Mammalia",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "Afrosoricida",
+          "CategoryDescription": "a description of Afrosoricida",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Artiodactyla",
+          "CategoryDescription": "a description of Artiodactyla",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Carnivora",
+          "CategoryDescription": "a description of Carnivora",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 4,
+          "CategoryID": 1,
+          "SubCategoryName": "Cetacea",
+          "CategoryDescription": "a description of Cetacea",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 5,
+          "CategoryID": 1,
+          "SubCategoryName": "Chiroptera",
+          "CategoryDescription": "a description of Chiroptera",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 6,
+          "CategoryID": 1,
+          "SubCategoryName": "Dasyuromorphia",
+          "CategoryDescription": "a description of Dasyuromorphia",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 7,
+          "CategoryID": 1,
+          "SubCategoryName": "Didelphimorphia",
+          "CategoryDescription": "a description of Didelphimorphia",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 8,
+          "CategoryID": 1,
+          "SubCategoryName": "Diprotodontia",
+          "CategoryDescription": "a description of Diprotodontia",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 9,
+          "CategoryID": 1,
+          "SubCategoryName": "Eulipotyphla",
+          "CategoryDescription": "a description of Eulipotyphla",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        }
+      ]
+    }
+  ]
+}

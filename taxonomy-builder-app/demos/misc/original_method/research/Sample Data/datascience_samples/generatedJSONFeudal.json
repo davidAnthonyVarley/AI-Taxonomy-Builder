@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Kingdom of England",
+      "CategoryDescription": "a description of Kingdom of England",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "King",
+          "CategoryDescription": "a description of King",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Queen Consort",
+          "CategoryDescription": "a description of Queen Consort",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Prince",
+          "CategoryDescription": "a description of Prince",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 4,
+          "CategoryID": 1,
+          "SubCategoryName": "Duke",
+          "CategoryDescription": "a description of Duke",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 5,
+          "CategoryID": 1,
+          "SubCategoryName": "Marquess",
+          "CategoryDescription": "a description of Marquess",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 6,
+          "CategoryID": 1,
+          "SubCategoryName": "Earl",
+          "CategoryDescription": "a description of Earl",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 7,
+          "CategoryID": 1,
+          "SubCategoryName": "Viscount",
+          "CategoryDescription": "a description of Viscount",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 8,
+          "CategoryID": 1,
+          "SubCategoryName": "Baron",
+          "CategoryDescription": "a description of Baron",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 9,
+          "CategoryID": 1,
+          "SubCategoryName": "Knight",
+          "CategoryDescription": "a description of Knight",
+          "HierarchyLevel": 2,
+          "ParentID": 1
+        }
+      ]
+    },
+    {
+      "CategoryID": 2,
+      "CategoryName": "Kingdom of France",
+      "CategoryDescription": "a description of Kingdom of France",
+      "HierarchyLevel": 1,
+      "ParentID": null,
+      "SubCategories": [
+        {
+          "SubCategoryID": 10,
+          "CategoryID": 2,
+          "SubCategoryName": "French King",
+          "CategoryDescription": "a description of French King",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 11,
+          "CategoryID": 2,
+          "SubCategoryName": "French Queen Consort",
+          "CategoryDescription": "a description of French Queen Consort",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 12,
+          "CategoryID": 2,
+          "SubCategoryName": "French Prince",
+          "CategoryDescription": "a description of French Prince",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 13,
+          "CategoryID": 2,
+          "SubCategoryName": "French Duke",
+          "CategoryDescription": "a description of French Duke",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        },
+        {
+          "SubCategoryID": 14,
+          "CategoryID": 2,
+          "SubCategoryName": "French Marquess",
+          "CategoryDescription": "a description of French Marquess",
+          "HierarchyLevel": 2,
+          "ParentID": 2
+        }
+      ]
+    }
+  ]
+}

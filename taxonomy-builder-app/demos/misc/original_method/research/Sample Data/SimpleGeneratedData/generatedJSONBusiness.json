@@ -1,0 +1,25 @@
+{
+  "business_hierarchy": {
+    "level1": {
+      "name": "Business",
+      "level2": {
+        "name": "Industry",
+        "level3": {
+          "name": "Division",
+          "level4": {
+            "name": "Department",
+            "level5": {
+              "name": "Service",
+              "level6": {
+                "name": "Sub-service",
+                "level7": {
+                  "name": "Task"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

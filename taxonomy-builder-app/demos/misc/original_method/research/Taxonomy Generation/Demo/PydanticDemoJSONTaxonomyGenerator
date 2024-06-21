@@ -1,0 +1,38 @@
+from openai import OpenAI
+import instructor
+from pydantic import BaseModel
+from typing import List, Optional
+
+taxonomy = input("Taxonomy to be generated: ")
+
+client = instructor.patch(OpenAI(api_key='sk-'))
+inputPrompt = "create a taxonomy on " + taxonomy
+
+class Subcatagory(BaseModel) :
+    catagory : str
+    # subcatagories : Optional[List[Subcatagory]]
+
+class Catagory(Subcatagory):
+    catagory : str
+    subcatagories : Optional[List[Subcatagory]]
+
+class Taxonomy(Catagory):
+    taxonomy_title : str
+    catagories : List[Catagory]
+
+
+
+response = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    response_model=Taxonomy,
+    messages=[
+        {"role": "system", "content": "You are a json taxonomy builder"},
+        {"role": "user", "content": inputPrompt}
+    ],
+    max_tokens=500
+)
+# assert isinstance(response, Taxonomy)
+generated_code=response.json()
+output_file_path = "generatedJSON.json"
+with open(output_file_path, "w") as output_file:
+    output_file.write(generated_code)

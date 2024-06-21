@@ -1,0 +1,30 @@
+.dragAndDropSidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to bottom, #3a1d6e, #233674);
+  width: 200px;
+  padding: 10px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: 50px;
+}
+
+.sidebar-item:hover {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+}
+
+.sidebar-text {
+  margin-left: 10px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}

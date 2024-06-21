@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+typing
+python-dotenv
+openai==0.28
+
+#also need to run chocolatoney, and choco install make for makefile testing

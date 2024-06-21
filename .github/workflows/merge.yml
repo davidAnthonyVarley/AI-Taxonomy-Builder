@@ -1,0 +1,23 @@
+name: Merge
+
+on:
+  workflow_run:
+    workflows: ["Test", "Build"]
+    branches: '*'
+    types: 
+      - completed
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+
+      - name: Merge staging -> uat
+        if: github.ref != 'refs/heads/main'
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: uat
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,677 @@
+{
+  "nodes": [
+    {
+      "id": "Porifera",
+      "type": "textUpdater",
+      "data": {
+        "value": "Porifera"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Cnidaria",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cnidaria"
+      },
+      "position": {
+        "x": 0,
+        "y": 100
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Platyhelminthes",
+      "type": "textUpdater",
+      "data": {
+        "value": "Platyhelminthes"
+      },
+      "position": {
+        "x": 0,
+        "y": 200
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Nematoda",
+      "type": "textUpdater",
+      "data": {
+        "value": "Nematoda"
+      },
+      "position": {
+        "x": 0,
+        "y": 300
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Mollusca",
+      "type": "textUpdater",
+      "data": {
+        "value": "Mollusca"
+      },
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Annelida",
+      "type": "textUpdater",
+      "data": {
+        "value": "Annelida"
+      },
+      "position": {
+        "x": 0,
+        "y": 500
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Arthropoda",
+      "type": "textUpdater",
+      "data": {
+        "value": "Arthropoda"
+      },
+      "position": {
+        "x": 0,
+        "y": 600
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Echinodermata",
+      "type": "textUpdater",
+      "data": {
+        "value": "Echinodermata"
+      },
+      "position": {
+        "x": 0,
+        "y": 700
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Chordata",
+      "type": "textUpdater",
+      "data": {
+        "value": "Chordata"
+      },
+      "position": {
+        "x": 0,
+        "y": 800
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Aves",
+      "type": "textUpdater",
+      "data": {
+        "value": "Aves"
+      },
+      "position": {
+        "x": 200,
+        "y": 100
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Mammalia",
+      "type": "textUpdater",
+      "data": {
+        "value": "Mammalia"
+      },
+      "position": {
+        "x": 200,
+        "y": 200
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Reptilia",
+      "type": "textUpdater",
+      "data": {
+        "value": "Reptilia"
+      },
+      "position": {
+        "x": 200,
+        "y": 300
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Amphibia",
+      "type": "textUpdater",
+      "data": {
+        "value": "Amphibia"
+      },
+      "position": {
+        "x": 200,
+        "y": 400
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Actinopterygii",
+      "type": "textUpdater",
+      "data": {
+        "value": "Actinopterygii"
+      },
+      "position": {
+        "x": 200,
+        "y": 500
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Chondrichthyes",
+      "type": "textUpdater",
+      "data": {
+        "value": "Chondrichthyes"
+      },
+      "position": {
+        "x": 200,
+        "y": 600
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Insecta",
+      "type": "textUpdater",
+      "data": {
+        "value": "Insecta"
+      },
+      "position": {
+        "x": 200,
+        "y": 700
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Arachnida",
+      "type": "textUpdater",
+      "data": {
+        "value": "Arachnida"
+      },
+      "position": {
+        "x": 200,
+        "y": 800
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Malacostraca",
+      "type": "textUpdater",
+      "data": {
+        "value": "Malacostraca"
+      },
+      "position": {
+        "x": 400,
+        "y": 100
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Gastropoda",
+      "type": "textUpdater",
+      "data": {
+        "value": "Gastropoda"
+      },
+      "position": {
+        "x": 400,
+        "y": 200
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Cephalopoda",
+      "type": "textUpdater",
+      "data": {
+        "value": "Cephalopoda"
+      },
+      "position": {
+        "x": 400,
+        "y": 300
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Echinoidea",
+      "type": "textUpdater",
+      "data": {
+        "value": "Echinoidea"
+      },
+      "position": {
+        "x": 400,
+        "y": 400
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Holothuroidea",
+      "type": "textUpdater",
+      "data": {
+        "value": "Holothuroidea"
+      },
+      "position": {
+        "x": 400,
+        "y": 500
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Asteroidea",
+      "type": "textUpdater",
+      "data": {
+        "value": "Asteroidea"
+      },
+      "position": {
+        "x": 400,
+        "y": 600
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Terrestrial",
+      "type": "textUpdater",
+      "data": {
+        "value": "Terrestrial"
+      },
+      "position": {
+        "x": 600,
+        "y": 0
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Aquatic",
+      "type": "textUpdater",
+      "data": {
+        "value": "Aquatic"
+      },
+      "position": {
+        "x": 600,
+        "y": 100
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Aerial",
+      "type": "textUpdater",
+      "data": {
+        "value": "Aerial"
+      },
+      "position": {
+        "x": 600,
+        "y": 200
+      },
+      "width": 100,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Carnivores",
+      "type": "textUpdater",
+      "data": {
+        "value": "Carnivores"
+      },
+      "position": {
+        "x": 800,
+        "y": 0
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Herbivores",
+      "type": "textUpdater",
+      "data": {
+        "value": "Herbivores"
+      },
+      "position": {
+        "x": 800,
+        "y": 100
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Omnivores",
+      "type": "textUpdater",
+      "data": {
+        "value": "Omnivores"
+      },
+      "position": {
+        "x": 800,
+        "y": 200
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Filter Feeders",
+      "type": "textUpdater",
+      "data": {
+        "value": "Filter Feeders"
+      },
+      "position": {
+        "x": 800,
+        "y": 300
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Detritivores",
+      "type": "textUpdater",
+      "data": {
+        "value": "Detritivores"
+      },
+      "position": {
+        "x": 800,
+        "y": 400
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Oviparous",
+      "type": "textUpdater",
+      "data": {
+        "value": "Oviparous"
+      },
+      "position": {
+        "x": 1000,
+        "y": 0
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Viviparous",
+      "type": "textUpdater",
+      "data": {
+        "value": "Viviparous"
+      },
+      "position": {
+        "x": 1000,
+        "y": 100
+      },
+      "width": 120,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    },
+    {
+      "id": "Ovoviviparous",
+      "type": "textUpdater",
+      "data": {
+        "value": "Ovoviviparous"
+      },
+      "position": {
+        "x": 1000,
+        "y": 200
+      },
+      "width": 150,
+      "height": 40,
+      "dragging": false,
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "source": "Porifera",
+      "target": "Cnidaria"
+    },
+    {
+      "id": "edge2",
+      "source": "Cnidaria",
+      "target": "Platyhelminthes"
+    },
+    {
+      "id": "edge3",
+      "source": "Platyhelminthes",
+      "target": "Nematoda"
+    },
+    {
+      "id": "edge4",
+      "source": "Nematoda",
+      "target": "Mollusca"
+    },
+    {
+      "id": "edge5",
+      "source": "Mollusca",
+      "target": "Annelida"
+    },
+    {
+      "id": "edge6",
+      "source": "Annelida",
+      "target": "Arthropoda"
+    },
+    {
+      "id": "edge7",
+      "source": "Arthropoda",
+      "target": "Echinodermata"
+    },
+    {
+      "id": "edge8",
+      "source": "Echinodermata",
+      "target": "Chordata"
+    },
+    {
+      "id": "edge9",
+      "source": "Chordata",
+      "target": "Aves"
+    },
+    {
+      "id": "edge10",
+      "source": "Chordata",
+      "target": "Mammalia"
+    },
+    {
+      "id": "edge11",
+      "source": "Chordata",
+      "target": "Reptilia"
+    },
+    {
+      "id": "edge12",
+      "source": "Chordata",
+      "target": "Amphibia"
+    },
+    {
+      "id": "edge13",
+      "source": "Chordata",
+      "target": "Actinopterygii"
+    },
+    {
+      "id": "edge14",
+      "source": "Chordata",
+      "target": "Chondrichthyes"
+    },
+    {
+      "id": "edge15",
+      "source": "Arthropoda",
+      "target": "Insecta"
+    },
+    {
+      "id": "edge16",
+      "source": "Arthropoda",
+      "target": "Arachnida"
+    },
+    {
+      "id": "edge17",
+      "source": "Arthropoda",
+      "target": "Malacostraca"
+    },
+    {
+      "id": "edge18",
+      "source": "Mollusca",
+      "target": "Gastropoda"
+    },
+    {
+      "id": "edge19",
+      "source": "Mollusca",
+      "target": "Cephalopoda"
+    },
+    {
+      "id": "edge20",
+      "source": "Echinodermata",
+      "target": "Echinoidea"
+    },
+    {
+      "id": "edge21",
+      "source": "Echinodermata",
+      "target": "Holothuroidea"
+    },
+    {
+      "id": "edge22",
+      "source": "Echinodermata",
+      "target": "Asteroidea"
+    },
+    {
+      "id": "edge23",
+      "source": "Terrestrial",
+      "target": "Aquatic"
+    },
+    {
+      "id": "edge24",
+      "source": "Aquatic",
+      "target": "Aerial"
+    },
+    {
+      "id": "edge25",
+      "source": "Carnivores",
+      "target": "Herbivores"
+    },
+    {
+      "id": "edge26",
+      "source": "Carnivores",
+      "target": "Omnivores"
+    },
+    {
+      "id": "edge27",
+      "source": "Herbivores",
+      "target": "Filter Feeders"
+    },
+    {
+      "id": "edge28",
+      "source": "Herbivores",
+      "target": "Detritivores"
+    },
+    {
+      "id": "edge29",
+      "source": "Omnivores",
+      "target": "Filter Feeders"
+    },
+    {
+      "id": "edge30",
+      "source": "Omnivores",
+      "target": "Detritivores"
+    },
+    {
+      "id": "edge31",
+      "source": "Oviparous",
+      "target": "Viviparous"
+    },
+    {
+      "id": "edge32",
+      "source": "Viviparous",
+      "target": "Ovoviviparous"
+    }
+  ]
+}
+

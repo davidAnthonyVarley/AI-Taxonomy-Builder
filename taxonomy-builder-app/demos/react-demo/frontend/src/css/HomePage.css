@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+.container-home {
+  color: #fff;
+  position: absolute;
+}
+
+.container-intro {
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%; 
+}
+
+.container-intro-text {
+  flex: 1;
+  text-align: center;
+}
+
+.container-image {
+  flex: 1;
+  text-align: center;
+}
+
+.image {
+  width: 440px;
+  height: 400px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  font-size: 13px;
+  margin-top: -30px;
+}
+
+.left-section {
+  flex: 1;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.middle-section {
+  flex: 1;
+  text-align: center;
+}
+
+.right-section {
+  flex: 1;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.container-def,
+.container-tutorial,
+.container-how {
+  margin-top: 10px;
+}
+
+.header1 {
+  padding-right: 0px;
+}
+
+.header2 {
+  margin-top: 0px;
+}
+
+.header3{
+  margin-top: -14px;
+  padding-left: 0px;
+}

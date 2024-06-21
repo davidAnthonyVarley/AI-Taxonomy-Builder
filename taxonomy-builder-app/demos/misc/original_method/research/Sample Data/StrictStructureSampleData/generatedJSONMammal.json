@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Mammalia",
+      "CategoryDescription": "a description of Mammalia",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "Afrosoricida",
+          "CategoryDescription": "a description of Afrosoricida"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Artiodactyla",
+          "CategoryDescription": "a description of Artiodactyla"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Carnivora",
+          "CategoryDescription": "a description of Carnivora"
+        },
+        {
+          "SubCategoryID": 4,
+          "CategoryID": 1,
+          "SubCategoryName": "Cetacea",
+          "CategoryDescription": "a description of Cetacea"
+        },
+        {
+          "SubCategoryID": 5,
+          "CategoryID": 1,
+          "SubCategoryName": "Chiroptera",
+          "CategoryDescription": "a description of Chiroptera"
+        },
+        {
+          "SubCategoryID": 6,
+          "CategoryID": 1,
+          "SubCategoryName": "Dasyuromorphia",
+          "CategoryDescription": "a description of Dasyuromorphia"
+        },
+        {
+          "SubCategoryID": 7,
+          "CategoryID": 1,
+          "SubCategoryName": "Didelphimorphia",
+          "CategoryDescription": "a description of Didelphimorphia"
+        },
+        {
+          "SubCategoryID": 8,
+          "CategoryID": 1,
+          "SubCategoryName": "Diprotodontia",
+          "CategoryDescription": "a description of Diprotodontia"
+        },
+        {
+          "SubCategoryID": 9,
+          "CategoryID": 1,
+          "SubCategoryName": "Eulipotyphla",
+          "CategoryDescription": "a description of Eulipotyphla"
+        }
+      ]
+    }
+  ]
+}

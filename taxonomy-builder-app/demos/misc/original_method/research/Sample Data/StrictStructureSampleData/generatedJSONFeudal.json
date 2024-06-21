@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Kingdom of England",
+      "CategoryDescription": "a description of Kingdom of England",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "King",
+          "CategoryDescription": "a description of King"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Queen Consort",
+          "CategoryDescription": "a description of Queen Consort"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Prince",
+          "CategoryDescription": "a description of Prince"
+        },
+        {
+          "SubCategoryID": 4,
+          "CategoryID": 1,
+          "SubCategoryName": "Duke",
+          "CategoryDescription": "a description of Duke"
+        },
+        {
+          "SubCategoryID": 5,
+          "CategoryID": 1,
+          "SubCategoryName": "Marquess",
+          "CategoryDescription": "a description of Marquess"
+        },
+        {
+          "SubCategoryID": 6,
+          "CategoryID": 1,
+          "SubCategoryName": "Earl",
+          "CategoryDescription": "a description of Earl"
+        },
+        {
+          "SubCategoryID": 7,
+          "CategoryID": 1,
+          "SubCategoryName": "Viscount",
+          "CategoryDescription": "a description of Viscount"
+        },
+        {
+          "SubCategoryID": 8,
+          "CategoryID": 1,
+          "SubCategoryName": "Baron",
+          "CategoryDescription": "a description of Baron"
+        },
+        {
+          "SubCategoryID": 9,
+          "CategoryID": 1,
+          "SubCategoryName": "Knight",
+          "CategoryDescription": "a description of Knight"
+        }
+      ]
+    },
+    {
+      "CategoryID": 2,
+      "CategoryName": "Kingdom of France",
+      "CategoryDescription": "a description of Kingdom of France",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 2,
+          "SubCategoryName": "King",
+          "CategoryDescription": "a description of King"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 2,
+          "SubCategoryName": "Queen Consort",
+          "CategoryDescription": "a description of Queen Consort"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 2,
+          "SubCategoryName": "Dauphin",
+          "CategoryDescription": "a description of Dauphin"
+        },
+        {
+          "SubCategoryID": 4,
+          "CategoryID": 2,
+          "SubCategoryName": "Duke",
+          "CategoryDescription": "a description of Duke"
+        },
+        {
+          "SubCategoryID": 5,
+          "CategoryID": 2,
+          "SubCategoryName": "Marquis",
+          "CategoryDescription": "a description of Marquis"
+        }
+      ]
+    }
+  ]
+}

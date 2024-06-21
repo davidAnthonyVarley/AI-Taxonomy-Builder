@@ -1,0 +1,31 @@
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.tooltipLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.tooltipBox {
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .tooltipLink {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .tooltipBox {
+    display: block;
+  }
+}

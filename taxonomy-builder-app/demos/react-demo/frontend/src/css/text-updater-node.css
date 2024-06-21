@@ -1,0 +1,55 @@
+.text-updater-node {
+  min-height: 40px;
+  min-width: 70px;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.text-updater-node label {
+  display: block;
+  color: #777;
+  font-size: 12px;
+}
+
+.label-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.loading-circle {
+  width: 13px;
+  height: 13px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border-top-color: #007bff; /* Change color as needed */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,46 @@
+{
+  "CategoryID": 1,
+  "CategoryName": "Animal Species",
+  "CategoryDescription": "a description of Animal Species",
+  "HierarchyLevel": 1,
+  "ParentID": null,
+  "SubCategories": [
+    {
+      "SubCategoryID": 1,
+      "CategoryID": 1,
+      "SubCategoryName": "Mammals",
+      "CategoryDescription": "a description of Mammals",
+      "HierarchyLevel": 2,
+      "ParentID": 1,
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "ParentSubCategoryID": 1,
+          "SubCategoryName": "Carnivores",
+          "CategoryDescription": "a description of Carnivores",
+          "HierarchyLevel": 3,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "ParentSubCategoryID": 1,
+          "SubCategoryName": "Herbivores",
+          "CategoryDescription": "a description of Herbivores",
+          "HierarchyLevel": 3,
+          "ParentID": 1
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "ParentSubCategoryID": 1,
+          "SubCategoryName": "Omnivores",
+          "CategoryDescription": "a description of Omnivores",
+          "HierarchyLevel": 3,
+          "ParentID": 1
+        }
+      ]
+    }
+  ]
+}

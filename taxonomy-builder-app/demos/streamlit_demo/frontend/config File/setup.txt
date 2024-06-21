@@ -1,0 +1,6 @@
+git checkout frontend (switch to frontend branch from main branch)
+cd frontend (cd into frontend folder)
+pip install streamlit (only need to do once)
+pip install streamlit-agraph (only need to do once)
+streamlit run HomePage.py
+

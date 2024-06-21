@@ -1,0 +1,35 @@
+{
+  "CategoryName": "Business",
+  "CategoryID": 1,
+  "CategoryDescription": "the highest level",
+  "SubCategoryID": {
+    "name": "Industry",
+    "CategoryID": 2,
+    "CategoryDescription": "a description of Industry",
+    "SubCategoryID": {
+      "name": "Division",
+      "CategoryID": 3,
+      "CategoryDescription": "a description of Division",
+      "SubCategoryID": {
+        "name": "Department",
+        "CategoryID": 4,
+        "CategoryDescription": "a description of Department",
+        "SubCategoryID": {
+          "name": "Service",
+          "CategoryID": 5,
+          "CategoryDescription": "a description of Service",
+          "SubCategoryID": {
+            "name": "Sub-service",
+            "CategoryID": 6,
+            "CategoryDescription": "a description of Sub-service",
+            "SubCategoryID": {
+              "name": "Task",
+              "SubCategoryID": 0,
+              "CategoryDescription": "a description of Task"
+            }
+          }
+        }
+      }
+    }
+  }
+}

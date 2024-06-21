@@ -1,0 +1,74 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      
+permissions:
+  contents: write
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      # cache the dependencies to speed up the build
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+        
+      - name: Build demo
+        run: |
+          cd taxonomy-builder-app/production-app/frontend/src
+          npm install
+          npm run build
+        env:
+         CI: ""
+      - name: Deploy with Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./taxonomy-builder-app/production-app/frontend/build
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
+        with:
+          username: papugan@tcd.ie
+          password: SwEng24!Taxonomy
+  
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        with:
+          images: papugan/sweng-24
+  
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: "{{defaultContext}}:taxonomy-builder-app/production-app/frontend"
+          push: true
+          tags: papugan/sweng-24:frontend
+  
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: "{{defaultContext}}:taxonomy-builder-app/production-app/backend"
+          push: true
+          tags: papugan/sweng-24:backend
+          
+      

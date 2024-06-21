@@ -1,0 +1,15 @@
+{
+  "catagory": "Amphibians",
+  "subcatagories": [{ "catagory": "Frogs" }],
+  "taxonomy_title": "Frog Taxonomy",
+  "catagories": [
+    {
+      "catagory": "Anura",
+      "subcatagories": [
+        { "catagory": "True Frogs" },
+        { "catagory": "Tree Frogs" }
+      ]
+    },
+    { "catagory": "Toad", "subcatagories": [{ "catagory": "True Toads" }] }
+  ]
+}

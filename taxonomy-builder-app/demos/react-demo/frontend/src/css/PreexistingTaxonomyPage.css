@@ -1,0 +1,20 @@
+.preexisting-taxonomy-page-container {
+  display: flex;
+}
+
+.preexisting-taxonomy-page-content {
+  color: white;
+  flex: 1;
+  font-size: 30px;
+  margin: 30px;
+}
+
+/* Style for the dropzone when an item is being dragged over it */
+.preexisting-taxonomy-page-content.drag-over {
+  border: 3px dashed #fff; /* Dashed border to indicate a drop target */
+  background-color: rgba(255, 255, 255, 0.2); /* Change background color */
+}
+
+body {
+  overflow-x: hidden; /* preventing scroll from side to side */
+}

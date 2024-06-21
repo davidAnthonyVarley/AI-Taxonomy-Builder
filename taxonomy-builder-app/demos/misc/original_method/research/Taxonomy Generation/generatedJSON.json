@@ -1,0 +1,9 @@
+{
+  "name": "Chocolate",
+  "parent_node": "Food",
+  "child_nodes": [
+    { "name": "Dark Chocolate" },
+    { "name": "Milk Chocolate" },
+    { "name": "White Chocolate" }
+  ]
+}

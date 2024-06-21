@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "CategoryID": 1,
+      "CategoryName": "Constitutional Law",
+      "CategoryDescription": "a description of Constitutional Law",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 1,
+          "SubCategoryName": "First Amendment",
+          "CategoryDescription": "a description of First Amendment"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 1,
+          "SubCategoryName": "Second Amendment",
+          "CategoryDescription": "a description of Second Amendment"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 1,
+          "SubCategoryName": "Fourth Amendment",
+          "CategoryDescription": "a description of Fourth Amendment"
+        }
+      ]
+    },
+    {
+      "CategoryID": 2,
+      "CategoryName": "Criminal Law",
+      "CategoryDescription": "a description of Criminal Law",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 2,
+          "SubCategoryName": "Homicide",
+          "CategoryDescription": "a description of Homicide"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 2,
+          "SubCategoryName": "Assault",
+          "CategoryDescription": "a description of Assault"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 2,
+          "SubCategoryName": "Theft",
+          "CategoryDescription": "a description of Theft"
+        }
+      ]
+    },
+    {
+      "CategoryID": 3,
+      "CategoryName": "Contract Law",
+      "CategoryDescription": "a description of Contract Law",
+      "SubCategories": [
+        {
+          "SubCategoryID": 1,
+          "CategoryID": 3,
+          "SubCategoryName": "Formation of Contracts",
+          "CategoryDescription": "a description of Formation of Contracts"
+        },
+        {
+          "SubCategoryID": 2,
+          "CategoryID": 3,
+          "SubCategoryName": "Breach of Contract",
+          "CategoryDescription": "a description of Breach of Contract"
+        },
+        {
+          "SubCategoryID": 3,
+          "CategoryID": 3,
+          "SubCategoryName": "Remedies",
+          "CategoryDescription": "a description of Remedies"
+        }
+      ]
+    }
+  ]
+}
